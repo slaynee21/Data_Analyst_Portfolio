@@ -1,42 +1,89 @@
 # Pizza Sales Analysis
 
+## About
+This project is a comprehensive analysis of pizza sales data. The aim was to understand the trends and patterns in pizza sales, identify the most popular pizza types, and analyze the factors affecting pizza sales. The insights from this project can help pizza businesses optimize their sales strategies and increase their revenue.
+
+Link for the Dataset: https://www.kaggle.com/datasets/shilongzhuang/pizza-sales
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Goals](#goals)
 - [Summary](#summary)
+    * Conclusions
+    * Challenges
+    * Cool Techniques
+    * Key findings
+    * Project Improvement Prospects
 - [Techniques Used](#techniques-used)
-- [Getting Started](#getting-started)
-- [Data](#data)
-- [Notebooks](#notebooks)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Data Acquisition](#data-acquisition)
+  - [Data Preparation](#data-preparation)
+  - [Data Analytics](#data-analytics)
+  - [Data Visualization](#data-visualization)
+- [Dashboard](#dashboard)
+ 
+
+ 
+## <a name="introduction"></a>Introduction
+In the bustling world of fast food, pizza holds a significant place. But what makes one pizza sell more than another? This project dives deep into pizza sales, aiming to uncover hidden patterns and trends that could be the secret sauce for boosting revenue. Are you ready to join us on this delicious data journey?
+
+## <a name="goals"></a>Goals
+
+The mission of this project was to slice into the factors influencing pizza sales, identify the most popular pizza types, and analyze sales trends over time. The questions are: How does the size of a pizza slice into sales? Is there a correlation between the price of a pizza and the quantity sold? And, does the day of the week have a topping effect on sales?
 
 ## <a name="summary"></a>Summary
 
-This project is a comprehensive analysis of pizza sales data...
+ - **Conclusions**: The analysis revealed that pizza size significantly impacts sales, with a notable difference between large and medium sizes. A moderate negative correlation was found between pizza price and quantity sold, indicating higher prices might lead to fewer sales.
+
+ - **Challenges**:The main challenges were related to data cleaning and manipulation. Ensuring data accuracy and creating new columns for total orders and order days were crucial steps.
+
+ - **Cool Techniques**:The project utilized SQL for data extraction, Excel for analysis and visualization, and statistical techniques like A/B testing, correlation, and regression analysis. The creation of an interactive Excel dashboard was a key highlight.
+
+ - **Key Findings**: The exploration into the world of pizza sales cooked up some tantalizing insights. First off, size does matter! A significant difference in the sales of large and medium pizzas was found, but interestingly, other size comparisons didn't show the same trend. Could this be a game-changer in how pizza sizes are perceived?
+
+   Next, a twist in the tale was uncovered - as the price of a pizza goes up, the number of pizzas sold tends to go down. This moderate negative correlation suggests that while customers love their pizzas, they might not love a heftier price tag. Could pricing strategies be the secret ingredient to boosting sales?
+
+   And here's the final topping - order time. Contrary to what one might expect, the time of order had only a very weak impact on the quantity sold. So, when it comes to pizza, is time just a side order? This surprising finding could have the industry rethinking assumptions about meal times and pizza sales.
+
+ - **Project Improvement Prospects**:Future improvements could include analyzing seasonal trends or ingredient impacts on sales, employing advanced statistical techniques, and enhancing data visualization using tools like Tableau or Power BI.
 
 ## <a name="techniques-used"></a>Techniques Used
 
-The following techniques were used in this project...
+### <a name="data-acquisition"></a>Data Acquisition
 
-## <a name="getting-started"></a>Getting Started
+The data for this project was acquired using SQL queries from a database from Kaggle. The SQL queries were designed to extract relevant information such as the type of pizza, quantity sold, date of sale, and other pertinent details. Used SQL queries are in [this file](https://github.com/slaynee21/Data_Analytics_Projects/blob/main/Pizza%20Sales%20Analytics%20Excel/SQL%20QUERIES.docx)
 
-To get started with this project, you need to...
+Once the data was extracted using SQL, it was imported into Excel for further analysis. This combination of SQL for data extraction and Excel for data analysis provided a robust and flexible approach to understanding the trends and patterns in pizza sales.
 
-## <a name="data"></a>Data
 
-The data used in this project is stored in the `data` directory...
+### <a name="data-preparation"></a>Data Preparation
+#### Data cleaning
 
-## <a name="notebooks"></a>Notebooks
+1. **Checking for Duplicates**: The first step in the data cleaning process was to check for any duplicate entries using Excel's built-in 'Remove Duplicates' feature. Fortunately, no duplicate entries were found in the dataset.
 
-The `notebooks` directory contains Jupyter notebooks...
+2. **Handling Missing Data**: The next step was to check for any missing data. After a thorough examination, it was found that the dataset did not contain any missing values.
 
-## <a name="results"></a>Results
+3. **Dealing with Incomplete Values**: Lastly, the dataset was checked for any incomplete values. This involved checking each field for accuracy and completeness. Upon review, no incomplete or inconsistent values were found.
 
-The results of the analysis are summarized in the `results` directory...
+#### Data Manipulation Techniques
 
-## <a name="contributing"></a>Contributing
+1. **Creating a Total Orders Column**: A new column named 'Total Orders' was created to count the total number of orders. This was done to facilitate further analysis, such as identifying trends in sales volume over time or determining the most popular pizza types.
 
-If you would like to contribute to this project...
+2. **Extracting Order Day from Order Date**: The 'Order Date' column contained detailed timestamp information. To simplify the analysis, a new column named 'Order Day' was created by extracting the day from the 'Order Date'. This allowed for a more straightforward analysis of daily sales trends.
 
-## <a name="license"></a>License
+3. **Modifying Pizza Size Description**: The descriptions of pizza sizes in the 'Pizza Size' column were modified to be more understandable. This was done to ensure clarity in the data and to make the subsequent analysis and visualizations more intuitive.
 
-This project is licensed under the MIT License...
+
+### <a name="data-analytics"></a>Data Analytics
+
+1. **A/B Tests**: Pairwise t-tests were performed to compare the number of pizzas sold of each size, revealing a significant difference between large and medium pizzas, but not revealing a significant difference between large and small or medium and small pizzas.
+2. **Correlation Analysis**: A correlation analysis was conducted which revealed a moderate negative correlation of -0.427, indicating that as the unit price of the pizza increases, the quantity sold tends to decrease, albeit not very strongly (close to -1 or 1).
+3. **Regression Analysis**: The regression analysis shows that there is a significant but very weak negative relationship between order time and quantity, with order time explaining only about 0.33% of the variability in quantity. 
+
+### <a name="data-visualization"></a>Data Visualization
+
+Excel was leveraged to construct a robust dashboard that encapsulates key performance indicators (KPIs) and chart analyses, providing a holistic view of the pizza sales data. The dashboard was designed with an interactive filter for the order date, allowing users to seamlessly navigate through the data timeline and gain insights into sales trends, performance metrics, and other analytical observations over specific periods.
+
+### <a name="dashboard"></a>Dashboard
+![image](https://github.com/slaynee21/Data_Analytics_Projects/assets/103671619/d090519b-f93f-4119-84ef-116137988ef9)
+
