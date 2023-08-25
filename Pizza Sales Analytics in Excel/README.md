@@ -76,6 +76,8 @@ Once the data was extracted using SQL, it was imported into Excel for further an
 
 ### <a name="data-analytics"></a>Data Analytics
 
+The primary insights are displayed on the dashboard. Here is some statistical analysis:
+
 1. **A/B Tests**: Pairwise t-tests were performed to compare the number of pizzas sold of each size, revealing a significant difference between large and medium pizzas, but not revealing a significant difference between large and small or medium and small pizzas.
 2. **Correlation Analysis**: A correlation analysis was conducted which revealed a moderate negative correlation of -0.427, indicating that as the unit price of the pizza increases, the quantity sold tends to decrease, albeit not very strongly (close to -1 or 1).
 3. **Regression Analysis**: The regression analysis shows that there is a significant but very weak negative relationship between order time and quantity, with order time explaining only about 0.33% of the variability in quantity. 
