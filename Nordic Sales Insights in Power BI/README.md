@@ -47,14 +47,38 @@ Link to the dataset: https://www.kaggle.com/datasets/jeetahirwar/northwind-trade
 
 3. **Dealing with Incomplete Values**: Lastly, the dataset was checked for any incomplete values. This involved checking each field for accuracy and completeness. Upon review, no incomplete or inconsistent values were found.
 
+#### Data Manipulation Techniques
+A revenue column was created, along with Year over Year changing, Top/Bottom 10 and the previous year's parameter values. All these measures was created using DAX. These metrics played a pivotal role in presenting of KPIs.
+
+### Data Visualization📊
+
+Power BI was used for the creating of an interactive dashboard, offering a comprehensive view of key performance indicator (KPI) values. This dynamic platform empowers users to derive actionable insights and make informed decisions that drive business success.
+
+Used Power BI Visualization techniques:
+
+- **Tooltips**: I implemented two essential tooltips within the project. The first tooltip enhances the column chart, providing users with a detailed breakdown of data for each month. The second tooltip, applied to both the map and bar chart, offers in-depth insights into performance indicators specific to each country.
+
+- **Bookmarks**: I incorporated a user-friendly navigation panel on the left side of the dashboard, leveraging bookmarks and buttons. This intuitive feature ensures that users can effortlessly access the information they need, allowing for a seamless and efficient exploration of the data
+
+- **Custom Data Labels**: Custom data labels were integrated to provide additional information within the charts.
+
+And some small features like custom layout, themes and imported visuals.
+
+### Demo of the first slide
+![image](https://github.com/slaynee21/Data_Analytics_Projects/assets/103671619/7ecb5498-3fdb-4012-a9d8-72646c8edb7a)
 
 
+## Data Analysis
 
+In this section, we will delve into business challenges and explore potential solutions to drive improvement.
 
+- **Changing of Orders and Revenue by Mounth**
 
-
-
-
+  ![image](https://github.com/slaynee21/Data_Analytics_Projects/assets/103671619/f0a4f31f-d550-4441-81dd-f58e89c1c3f7)  
+In this line chart, we observe elevated values from January to April, with a peak occurring in April, followed by a decline in values during May and June.  
+<br /> **Possible Solution:**
+  <br /> <br /> For peak months: Prioritize stocking popular products (Cote de Blaye, Thuringer, Raclette) in anticipation for peak months. Allocate a larger portion of the marketing budget to promote these products. Plan product launches or major promotions to coincide with these months, capitalizing on increased traffic and demand.
+<br /> <br /> For lower months: During May and June, adjust inventory levels to avoid overstocking and unnecessary holding costs. Run targeted marketing campaigns or promotions to drive sales during this period, focusing on products with lower revenue(Chocolate, Geitost, Genen Shoyuy). To incentivize customers to purchase consider clearance sales or bundling options.
 
 
 ## <a name="summary"></a>Summary
