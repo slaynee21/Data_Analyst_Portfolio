@@ -80,7 +80,7 @@ In this line chart, we observe elevated values from January to April, with a pea
   <br /> <br /> For peak months: Prioritize stocking popular products (Cote de Blaye, Thuringer, Raclette) in anticipation for peak months. Allocate a larger portion of the marketing budget to promote these products. Plan product launches or major promotions to coincide with these months, capitalizing on increased traffic and demand.
 <br /> <br /> For lower months: During May and June, adjust inventory levels to avoid overstocking and unnecessary holding costs. Run targeted marketing campaigns or promotions to drive sales during this period, focusing on products with lower revenue(Chocolate, Geitost, Genen Shoyuy). To incentivize customers to purchase consider clearance sales or bundling options.
 
-- **How to Optimize Sales in Countries** 🌍
+- **How to Optimize Sales in Countries?** 🌍
 <br />  <br /> I will conduct an analysis of key country indicators with the aim of identifying potential solutions to enhance business performance.
 <br />  <br /> **USA:** <br />The United States stands as our top revenue-generating market, with a total revenue of $263.5 K , primarily attributed to the greater solvency of its buyers, a substantial customer base of 13, and a high volume of orders totaling 122. However, it's noteworthy that this market also exhibits one of the longest average delivery times, averaging 9.5 days.
 <br /> **Possible Solution:** To further enhance our performance, we can focus on optimizing our distribution networks, aiming to reduce shipping costs and expedite delivery times in this key market.
