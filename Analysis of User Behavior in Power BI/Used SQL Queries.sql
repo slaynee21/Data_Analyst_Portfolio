@@ -7,7 +7,6 @@ SET Age =
         WHEN Age = '12-20' THEN 'Teenagers (12-20)'
         WHEN Age = '35-60' THEN 'Adults (35-60)'
         WHEN Age = '60+' THEN 'Seniors (60+)'
-        ELSE Age -- If you want to keep other values as they are
     END;
 
 -----------------------------------------------------------------------------
