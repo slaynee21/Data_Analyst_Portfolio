@@ -60,7 +60,7 @@ In addition to the primary data transformations, minor adjustments were made dur
 
 ### Data Visualization📊
 
-Power BI was used for the creation of an interactive dashboard, offering a comprehensive view of key performance indicator (KPI) values. This dynamic platform empowers users to derive actionable insights and make informed decisions that drive business success.
+Power BI was used for the creation of an interactive dashboard, offering a comprehensive view of KPI values. This dynamic platform empowers users to derive actionable insights and make informed decisions that drive business success.
 
 Used Power BI Visualization techniques:
 
